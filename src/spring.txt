@@ -1,0 +1,3 @@
+
+class=reflection.Service1
+method=doService1
