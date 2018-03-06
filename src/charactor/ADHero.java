@@ -1,10 +1,19 @@
 package charactor;
 
-public class ADHero extends Hero implements AD {
+public class ADHero extends Hero implements AD,Mortal {
 
 	public void attack() {
 		System.out.println(name + " 进行了一次攻击 ，但是不确定打中谁了");
 	}
+	
+	public void die(){
+		System.out.println("击杀了AD英雄");
+	}
+	
+    //隐藏父类的battleWin方法
+    public static void battleWin(){
+        System.out.println("ad hero battle win");
+    }    
 
 	// 可变数量的参数
 	public void attack(Hero... heros) {
@@ -15,7 +24,7 @@ public class ADHero extends Hero implements AD {
 	}
 
 	public static void main(String[] args) {
-		ADHero bh = new ADHero();
+/*		ADHero bh = new ADHero();
 		bh.name = "赏金猎人";
 
 		Hero h1 = new Hero();
@@ -24,7 +33,10 @@ public class ADHero extends Hero implements AD {
 		h2.name = "提莫";
 
 		bh.attack(h1);
-		bh.attack(h1, h2);
+		bh.attack(h1, h2);*/
+		
+		Hero.battleWin();
+		ADHero.battleWin();
 
 	}
 
