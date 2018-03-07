@@ -1,6 +1,10 @@
 package charactor;
 
 public class APHero extends Hero implements AP,Mortal {
+	
+	public APHero(String name){
+		this.name = name;
+	}
 
 	@Override
 	public void magicAttack() {
