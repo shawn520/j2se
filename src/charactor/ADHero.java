@@ -1,4 +1,4 @@
-package charactor;
+/*package charactor;
 
 public class ADHero extends Hero implements AD,Mortal {
 
@@ -24,7 +24,7 @@ public class ADHero extends Hero implements AD,Mortal {
 	}
 
 	public static void main(String[] args) {
-/*		ADHero bh = new ADHero();
+		ADHero bh = new ADHero();
 		bh.name = "赏金猎人";
 
 		Hero h1 = new Hero();
@@ -33,11 +33,12 @@ public class ADHero extends Hero implements AD,Mortal {
 		h2.name = "提莫";
 
 		bh.attack(h1);
-		bh.attack(h1, h2);*/
+		bh.attack(h1, h2);
 		
-		Hero.battleWin();
-		ADHero.battleWin();
-
+//		Hero.battleWin();
+//		ADHero.battleWin();
+		Hero h = new ADHero();
+		h.battleWin();
 	}
 
 	@Override
@@ -48,3 +49,28 @@ public class ADHero extends Hero implements AD,Mortal {
 	}
 
 }
+
+
+package charactor;
+ 
+public class ADHero extends Hero implements AD{
+ 
+    @Override
+    public void physicAttack() {
+        System.out.println("进行物理攻击");
+    }
+    
+    public ADHero(){
+    	
+    	System.out.println("AD Hero的构造方法");
+    }
+    
+    public static void main(String[] args) {
+
+    	new ADHero();
+    	
+    }
+ 
+}
+
+*/

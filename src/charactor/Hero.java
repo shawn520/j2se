@@ -1,4 +1,4 @@
-package charactor;
+/*package charactor;
 
 import property.Item;
 import property.LifePotion;
@@ -28,11 +28,11 @@ public class Hero {
     	Hero garen =  new Hero();
         garen.name = "盖伦";
     
-/*    	LifePotion lp =new LifePotion();
+    	LifePotion lp =new LifePotion();
     	MagicPotion mp =new MagicPotion();
     	
     	garen.useItem(lp);
-    	garen.useItem(mp);  */  	
+    	garen.useItem(mp);    	
         
         ADHero ashe = new ADHero();
         ashe.name = "艾希";
@@ -44,4 +44,60 @@ public class Hero {
     	
     }
       
+}
+
+package charactor;
+
+import property.Item;
+
+public class Hero {
+       
+    String name; //姓名
+       
+    float hp; //血量
+       
+    float armor; //护甲
+       
+    int moveSpeed; //移动速度
+    
+    public void useItem(Item i){
+    	System.out.println("hero use item");
+    	i.effect();
+    }
+    
+    public Hero(){
+    	System.out.println("Hero的构造方法 ");
+    }
+    
+    public static void main(String[] args) {
+		new Hero();
+	}
+     
+}
+*/
+
+
+package charactor;
+
+public class Hero {
+	public String name;
+	public float hp;
+
+	public int damage;
+
+	public Hero() {
+
+	}
+
+	// 增加一个初始化name的构造方法
+	public Hero(String name) {
+
+		this.name = name;
+	}
+
+	// 重写toString方法
+	public String toString() {
+		return name;
+	}
+
 }

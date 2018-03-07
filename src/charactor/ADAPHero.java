@@ -1,4 +1,4 @@
-package charactor;
+/*package charactor;
 
 public class ADAPHero extends Hero implements AD,AP,Mortal{
 
@@ -20,3 +20,4 @@ public class ADAPHero extends Hero implements AD,AP,Mortal{
 	
 
 }
+*/
