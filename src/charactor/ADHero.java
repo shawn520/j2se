@@ -84,18 +84,30 @@ public class ADHero extends Hero implements AD{
         System.out.println("进行物理攻击");
     }
     
-    public ADHero(String name){
-    	
-    	super(name);
-    	
-    	System.out.println("AD Hero的构造方法");
-    }
+//    public ADHero(String name){
+//    	
+//    	super(name);
+//    	
+//    	System.out.println("AD Hero的构造方法");
+//    }
     
-    public static void main(String[] args) {
+//    public static void main(String[] args) {
+//
+////    	new ADHero("女枪");
+//    	
+//    }
 
-    	new ADHero("女枪");
-    	
-    }
+//	@Override
+//	public void physicalAttack() {
+//		// TODO Auto-generated method stub
+//		
+//	}
+
+	@Override
+	public void attack() {
+		// TODO Auto-generated method stub
+		System.out.println("进行物理攻击");
+	}
 
 	@Override
 	public void physicalAttack() {

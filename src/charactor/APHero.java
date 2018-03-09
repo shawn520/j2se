@@ -15,4 +15,10 @@ public class APHero extends Hero implements AP,Mortal {
 		System.out.println("击杀了AP英雄");
 	}
 
+	@Override
+	public void attack() {
+		// TODO Auto-generated method stub
+		System.out.println("进行魔法攻击");
+	}
+
 }

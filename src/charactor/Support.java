@@ -9,6 +9,12 @@ public class Support extends Hero implements Healer {
 
 	}
 
+	@Override
+	public void attack() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }
 
 /*package charactor1;
