@@ -47,6 +47,10 @@ public class TestNumber {
 		byte b2 = B2;
 		System.out.println(b2);
 		
+		//通过Byte获取Byte的最大最小值
+		System.out.println(Byte.MIN_VALUE);
+		System.out.println(Byte.MAX_VALUE);
+		
 
 
 	}
