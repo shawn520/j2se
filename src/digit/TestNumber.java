@@ -23,8 +23,11 @@ public class TestNumber {
 		int i3 = it;
 		System.out.println("i3="+i3);
 		
-		
 		System.out.println(it instanceof Number);
+		
+		System.out.println(Byte.MIN_VALUE);
+		System.out.println(Byte.MAX_VALUE);
+
 
 	}
 
