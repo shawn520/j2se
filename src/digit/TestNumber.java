@@ -27,6 +27,26 @@ public class TestNumber {
 		
 		System.out.println(Byte.MIN_VALUE);
 		System.out.println(Byte.MAX_VALUE);
+		
+		//练习：
+		//对Byte自动装箱和拆箱
+		byte b1 = 26;
+		
+		//基本类型转换为封装类型
+		Byte B1 = new Byte(b1);
+		System.out.println(B1.byteValue());
+		
+		//自动装箱
+		Byte B2 = b1;
+		System.out.println(B2.byteValue());
+		
+		//封装类型转换成基本类型
+		System.out.println(B1.byteValue());
+		
+		//自动拆箱
+		byte b2 = B2;
+		System.out.println(b2);
+		
 
 
 	}
