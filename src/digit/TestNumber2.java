@@ -20,6 +20,19 @@ public class TestNumber2 {
 		int i2 = Integer.parseInt(str1);
 		System.out.println(i2);
 		
+		//练习：将浮点数转换成字符串
+		double d = 3.14;
+		//方法一
+		String str3 = String.valueOf(d);
+		System.out.println(str3);
 		
+		//方法二
+		Double d2 = d;
+		System.out.println(d2.toString());
+		
+		//练习：将字符串转换成浮点数
+		String str4 = "3.14";
+		double d3 = Double.parseDouble(str4);
+		System.out.println(d3);
 	}
 }
