@@ -20,6 +20,12 @@ public class TestNumber3 {
 		
 		//生成0-10之间的随机整数
 		System.out.println((int)(Math.random()*10));
+		
+		//开方
+		System.out.println(Math.sqrt(9));
+		
+		//次方
+		System.out.println(Math.pow(2, 4));
 	}
 
 }
