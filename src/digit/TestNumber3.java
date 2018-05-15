@@ -33,6 +33,7 @@ public class TestNumber3 {
 		//自然常数?
 		System.out.println(Math.E);
 		
+		System.out.println(  );
 	}
 
 }
