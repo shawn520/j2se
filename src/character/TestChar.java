@@ -28,6 +28,17 @@ public class TestChar {
 		
 		//判断是否为小写字母
 		System.out.println(Character.isLowerCase('A'));
+		
+		//常见的转义
+		System.out.println("使用空格无法得到对齐的效果");
+		System.out.println("abc def");
+		System.out.println("ab def");
+		//使用\t制表符可以达到对齐的效果
+		System.out.println("abc\tdef");
+		System.out.println("ab\tdef");
+		
+		//反斜杠
+		System.out.println("abc\\def");
 	}
 
 }
