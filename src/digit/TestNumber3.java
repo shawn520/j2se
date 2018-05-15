@@ -26,6 +26,13 @@ public class TestNumber3 {
 		
 		//次方
 		System.out.println(Math.pow(2, 4));
+		
+		//pi
+		System.out.println(Math.PI);
+		
+		//自然常数?
+		System.out.println(Math.E);
+		
 	}
 
 }
