@@ -1,5 +1,7 @@
 package character;
 
+import java.util.Scanner;
+
 public class TestChar {
 
 	public static void main(String[] args) {
@@ -39,6 +41,14 @@ public class TestChar {
 		
 		//反斜杠
 		System.out.println("abc\\def");
+		
+		//练习：从控制台读取字符串，然后把字符串转换为字符数组
+		Scanner in = new Scanner(System.in);
+		String str = in.nextLine();
+		char [] cs = str.toCharArray();
+		for (int i = 0; i < cs.length; i++) {
+			System.out.printf(cs[i]+"\t");
+		}
 	}
 
 }
