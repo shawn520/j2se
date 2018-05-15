@@ -45,15 +45,23 @@ public class TestChar {
 		//练习：从控制台读取字符串，然后把字符串转换为字符数组
 		//转换为字符数组后，筛选出控制台读取到的字符串中的大写字母和数字，并打印出来 
 		
-		Scanner in = new Scanner(System.in);
-		String str = in.nextLine();
-		char [] cs = str.toCharArray();
-		for (int i = 0; i < cs.length; i++) {
-			//System.out.printf(cs[i]+"\t");
-			if(Character.isUpperCase(cs[i]) || Character.isDigit(cs[i])){
-				System.out.print(cs[i]);
-			}
-		}
+//		Scanner in = new Scanner(System.in);
+//		String str = in.nextLine();
+//		char [] cs = str.toCharArray();
+//		for (int i = 0; i < cs.length; i++) {
+//			//System.out.printf(cs[i]+"\t");
+//			if(Character.isUpperCase(cs[i]) || Character.isDigit(cs[i])){
+//				System.out.print(cs[i]);
+//			}
+//		}
+		
+		//字符串长度
+		String name = "盖伦";
+		System.out.println(name.length());
+		String unkonw = "";
+		
+		//可以有长度为零的字符串，空字符串。
+		System.out.println(unkonw.length());
 	}
 
 }
