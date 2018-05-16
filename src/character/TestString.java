@@ -19,5 +19,12 @@ public class TestString {
 		
 		//忽略大小写
 		System.out.println(str1.equalsIgnoreCase(str4));
+		
+		String start = "the";
+		String end = "light";
+		System.out.println(str1.startsWith(start));
+		System.out.println(str1.endsWith(end));
+		
+		
 	}
 }
