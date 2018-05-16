@@ -20,5 +20,10 @@ public class TestString3 {
 		
 		//反转
 		System.out.println(sb.reverse());
+		
+		//容量
+		StringBuffer str2 = new StringBuffer(str1);
+		System.out.println(str2.length());
+		System.out.println(str2.capacity());
 	}
 }
