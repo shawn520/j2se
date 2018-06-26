@@ -16,7 +16,7 @@ public class Demo {
 			System.out.print(array[i]+"\t");
 		}
 		System.out.println("\n" + "排序后的数组为");
-		array = SelectSort.selectSort(array);
+		array = BubbleSort.sort(array);
 		//输出排序前的数组
 		for (int i = 0; i < array.length; i++) {
 			System.out.print(array[i]+"\t");

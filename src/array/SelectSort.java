@@ -2,7 +2,7 @@ package array;
 
 public class SelectSort {
 
-	public static int [] selectSort(int [] a){
+	public static int [] sort(int [] a){
 		int length = a.length;
 		for (int i = 0; i < a.length; i++) {
 			
